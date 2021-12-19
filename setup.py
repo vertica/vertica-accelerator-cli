@@ -14,7 +14,7 @@ import sys
 # Package meta-data
 VCLI_NAME = 'vaas-cli'
 VCLI_DESC = 'Vertica Command Line Interface'
-VCLI_URLS = 'https://bitbucket.org/vertica-saas/vaas-cli'
+VCLI_URLS = 'https://github.com/vertica/vertica-accelerator-cli'
 VCLI_EMAIL = 'xj.he@microfocus.com, hao.yang@microfocus.com, kirtan.chavda@microfocus.com'
 VCLI_AUTHOR = 'XJ, Hao Yang, Kirtan Chavda'
 VCLI_REQUIRES_PYTHON = '>=3.7'
