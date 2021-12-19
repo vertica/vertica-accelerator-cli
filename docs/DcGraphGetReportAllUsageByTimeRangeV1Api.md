@@ -1,0 +1,74 @@
+# openapi_client.DcGraphGetReportAllUsageByTimeRangeV1Api
+
+All URIs are relative to *http://localhost*
+
+Method | HTTP request | Description
+------------- | ------------- | -------------
+[**v1_vaas_reports_usage_by_time_range_get**](DcGraphGetReportAllUsageByTimeRangeV1Api.md#v1_vaas_reports_usage_by_time_range_get) | **GET** /v1/vaas/reports/usage-by-time-range | 
+
+
+# **v1_vaas_reports_usage_by_time_range_get**
+> InlineResponse200 v1_vaas_reports_usage_by_time_range_get(start_dttm, end_dttm=end_dttm)
+
+
+
+Get a dc report of usage from all database.
+
+### Example
+
+```python
+from __future__ import print_function
+import time
+import openapi_client
+from openapi_client.rest import ApiException
+from pprint import pprint
+# Defining the host is optional and defaults to http://localhost
+# See configuration.py for a list of all supported configuration parameters.
+configuration = openapi_client.Configuration(
+    host = "http://localhost"
+)
+
+
+# Enter a context with an instance of the API client
+with openapi_client.ApiClient() as api_client:
+    # Create an instance of the API class
+    api_instance = openapi_client.DcGraphGetReportAllUsageByTimeRangeV1Api(api_client)
+    start_dttm = 'start_dttm_example' # str | Start date in datetime format.
+end_dttm = '2021-12-15T03:00:36.801872+00:00' # str | End date in datetime format. (optional) (default to '2021-12-15T03:00:36.801872+00:00')
+
+    try:
+        api_response = api_instance.v1_vaas_reports_usage_by_time_range_get(start_dttm, end_dttm=end_dttm)
+        pprint(api_response)
+    except ApiException as e:
+        print("Exception when calling DcGraphGetReportAllUsageByTimeRangeV1Api->v1_vaas_reports_usage_by_time_range_get: %s\n" % e)
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **start_dttm** | **str**| Start date in datetime format. | 
+ **end_dttm** | **str**| End date in datetime format. | [optional] [default to &#39;2021-12-15T03:00:36.801872+00:00&#39;]
+
+### Return type
+
+[**InlineResponse200**](InlineResponse200.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: */*, application/json
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+**200** | Success |  -  |
+**408** | Timeout Error |  -  |
+**500** | Internal server error |  -  |
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
