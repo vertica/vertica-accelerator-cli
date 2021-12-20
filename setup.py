@@ -12,7 +12,7 @@ import os
 import sys
 
 # Package meta-data
-VCLI_NAME = 'vaas-cli'
+VCLI_NAME = 'vertica-accelerator-cli'
 VCLI_DESC = 'Vertica Command Line Interface'
 VCLI_URLS = 'https://github.com/vertica/vertica-accelerator-cli'
 VCLI_EMAIL = 'xj.he@microfocus.com, hao.yang@microfocus.com, kirtan.chavda@microfocus.com'

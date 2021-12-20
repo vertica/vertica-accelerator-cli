@@ -22,15 +22,15 @@ You must be customer or trial user of Vertica Accelerator with a valid account t
 ## Installation
 ### Installing the latest release
   ```
-  $ pip3 install vcli
+  $ pip3 install vertica-accelerator-cli
   ```
   or
   ```
-  $ python3 -m pip install dist/vaas-cli-0.1.0.tar.gz --upgrade
+  $ python3 -m pip install dist/vertica-accelerator-cli-0.1.0.tar.gz --upgrade
   ```
 ### Installing from source
   ```
-  $ pip3 install git+https://github.com/vertica/vcli.git@master
+  $ pip3 install git+https://github.com/vertica/vertica-accelerator-cli.git@master
   ```
 
 ### Autocomplete
@@ -50,7 +50,8 @@ You must be customer or trial user of Vertica Accelerator with a valid account t
   ```
 2. Create the package:
   ```
-  $ python3 setup.py sdist
+  $ python3 -m pip install --upgrade build
+  $ python3 -m build
   ```
  
 
