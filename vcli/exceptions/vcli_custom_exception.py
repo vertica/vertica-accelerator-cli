@@ -1,6 +1,7 @@
 #
 #  (c) Copyright 2021 Micro Focus or one of its affiliates.
 #
+
 from typing import Optional
 from vcli.util.error_message import ErrorMessage
 

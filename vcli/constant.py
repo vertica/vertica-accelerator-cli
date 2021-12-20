@@ -1,6 +1,7 @@
 #
 #  (c) Copyright 2021 Micro Focus or one of its affiliates.
 #
+
 from environs import Env
 from os.path import expanduser
 
