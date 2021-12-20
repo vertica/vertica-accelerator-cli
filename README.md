@@ -17,7 +17,8 @@ The Vertica Accelerator Command Line Interface (VCLI) is an alternate client for
   - [Maintainers](#maintainers)
 
 ## Prerequisites
-You must be customer or trial user of Vertica Accelerator with a valid account to use VCLI. 
+* You must be customer or trial user of Vertica Accelerator with a valid account to use VCLI.
+* You can contact the project maintainers or Vertica Accelerator support to obtain a "accelerator_client_id" which is needed in order to use the package 
 
 ## Installation
 ### Installing the latest release
