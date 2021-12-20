@@ -1,6 +1,7 @@
 #
 #  (c) Copyright 2021 Micro Focus or one of its affiliates.
 #
+
 import os
 from dataclasses import dataclass
 from configparser import ConfigParser

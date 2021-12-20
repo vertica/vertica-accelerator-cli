@@ -1,3 +1,7 @@
+#
+#  (c) Copyright 2021 Micro Focus or one of its affiliates.
+#
+
 import unittest
 
 from datetime import datetime as dt

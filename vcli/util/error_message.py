@@ -1,6 +1,7 @@
 #
 #  (c) Copyright 2021 Micro Focus or one of its affiliates.
 #
+
 class ErrorMessage:
     GENERAL_ERROR = "Something went wrong"
     OA_SERVICE_CAN_NOT_BE_NONE = "service_endpoint can not be empty"
