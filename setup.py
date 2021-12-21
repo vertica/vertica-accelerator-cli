@@ -18,7 +18,7 @@ VCLI_URLS = 'https://github.com/vertica/vertica-accelerator-cli'
 VCLI_EMAIL = 'xj.he@microfocus.com, hao.yang@microfocus.com, kirtan.chavda@microfocus.com'
 VCLI_AUTHOR = 'XJ, Hao Yang, Kirtan Chavda'
 VCLI_REQUIRES_PYTHON = '>=3.7'
-VCLI_VERSION = '0.1.0'
+VCLI_VERSION = '0.0.3'
 
 # Required packages for VCLI to be executed
 VCLI_REQUIRED_PACKAGES = [
